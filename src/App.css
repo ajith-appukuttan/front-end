@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+.app-h1{
+font-size:xx-large;
+border: 2px solid black;
+border-radius: 5px;
+padding: 10px;
+background-color: #282c34;
+color: white;
+text-align: center;
+}
+.app-button{
+  background-color:green ;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+}
+.app-container{
+ margin: 10px;
+
+}
+.app-h1-post{
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  
+}
+.app-h1-post:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
